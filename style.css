@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 html{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -70,7 +70,7 @@ header .info-text .scroll::before{
     content: '';
     width: 44px;
     height: 44px;
-    box-shadow: 0 0 0 0 rgba(255,255,255, 0.1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
     border-radius: 100%;
     animation: pulse 3s infinite;
 }
@@ -83,7 +83,7 @@ header .info-text .scroll::before{
         opacity: 1;
     }
     60%{
-        box-shadow: 0 0 0 30px rgba(255,255,255, 0.1);
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.1);
         opacity: 0;
     }
 }
@@ -112,8 +112,8 @@ header .info-text .scroll::before{
     color: #fff;
     border: 1px solid transparent;
     padding: 10px 50px;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
-    border-radius: 6;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
     transition: all 0.3s ease;
 }
 
@@ -121,8 +121,6 @@ header .info-text .scroll::before{
     border-color: #fff;
     box-shadow: none;
 }
-
-
 
 #about .card, #features .card{
     padding: 30px;
@@ -209,7 +207,7 @@ header .info-text .scroll::before{
     border-radius: 50%;
     cursor: pointer;
     font-size: 20px;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 .scroll-top:hover{
