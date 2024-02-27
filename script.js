@@ -1,5 +1,5 @@
 particlesJS("particles", {
-    particles:{
+    particles: {
         number: {
             value: 100,
             density: {
@@ -41,7 +41,7 @@ particlesJS("particles", {
         move: {
             enable: true,
             speed: 2,
-            diretion: "none",
+            direction: "none",
             random: true,
             straight: false,
             out_mode: "out",
@@ -74,17 +74,17 @@ particlesJS("particles", {
     retina_detect: true
 });
 
-function scrollToTop(){
-    window.scro({
+function scrollToTop() {
+    window.scrollTo({
         top: 0,
     });
 }
 
-window,addEventListener('scroll', function(){
+window.addEventListener('scroll', function () {
     var scrollTopButton = document.querySelector('.scroll-top');
-    if(this.window.pageYOffset > 200){
+    if (this.window.pageYOffset > 200) {
         scrollTopButton.style.display = 'block';
     } else {
         scrollTopButton.style.display = 'none';
     }
-})
+});
